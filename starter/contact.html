@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico"type="image/x-icon">
+    <!-- normlaize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Our Contact Page</title>
+    
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar">
+        <div class="nav-center">
+            <!-- header -->
+            <div class="nav-header">
+                <a href="index.html"class="nav-logo">
+                    <img src="./assets/logo.svg" alt="simply recipes">
+                     </a>
+                <button type="button" class="btn nav-btn">
+                    <i class="fas fa-align-justify"></i>
+                  </button>
+            </div>
+            <!-- links -->
+            <div class="nav-links">
+                <a href="index.html"class="nav-link">home</a>
+                <a href="about.html"class="nav-link">about</a>
+                <a href="tags.html"class="nav-link">tags</a>
+                <a href="recipes.html"class="nav-link">recipes</a>
+                <div class="nav-link contact-link">
+                    <button class="btn"style="background-color:blue;color:white;border:none;font-size:15px;border-radius:3px;padding:5px 11px">contact</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav-end -->
+<!-- main -->
+<main class="page">
+    <section class="about-page">
+        <article>
+            <h2>Want To Get In Touch</h2>
+            <p>Texidermy forage glossise letterpress heirloom before they sold out you probably haven't heard of them banh mibiodelsel chia.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quae!</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis provident excepturi nobis hic incidunt eum placeat eligendi facere culpa?</p><br>
+            <!-- <button class="btn"style="background-color:blue;color:white;border:none;font-size:15px;border-radius:3px;padding:5px 11px">contact</button> -->
+        </article>
+        <article>
+            <form class="form contact-form">
+                <!-- single form row -->
+                <div class="form-row">
+                    <label for="name"class="form-lable">Your name</label><br>
+                    <input type="text" name="name" id="name"class="form-input"size="52">
+                </div><br>
+                <!-- end single form row -->
+                <!-- single form row -->
+                <div class="form-row">
+                    <label for="Email"class="form-lable">Your Email</label><br>
+
+                    <input type="email" name="email" id="email"class="form-input"size="52">
+                </div>
+                <!-- end single form row --><br>
+                <div class="form-row">
+                    <label for="message" class="for-lable">message</label><br>
+                    <textarea name="message" id="message"class="form-textarea"cols="52" rows="7"></textarea>
+                    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+
+                </div><br>
+                <button class="btn"style="background-color:blue;color:white;border:none;font-size:15px;border-radius:3px;padding:5px 200px;text-align:center;"class="btn btn-block"type="submit">submit</button>
+            </form>
+        </article>
+    </section>
+    <section class="featured-recipes">
+        <h4 class="featured-title"style="font-weight: 100;">Look At this Awesomesouce!</h4>
+         <!-- recipes list -->
+         <div class="recipes-list">
+            <!-- single recipes -->
+            <a href="single-recipe.html"class="recipe">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj7Q1EAH006zD0YFgcz5_pwvshGhtXd-gprw&usqp=CAU&reload=on" alt="food"class="img recipe-img">
+                <h3>Pane Cacke</h3>
+                <p>prep : 15min | coock : 15min</p>
+            </a>
+            <!-- end single recipes -->
+            <!-- single recipes -->
+            <a href="single-recipe.html"class="recipe">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDpOwuzNUX33Qo-zfYSOqqr_5nvhcDNxdtw&usqp=CAU" alt="food"class="img recipe-img">
+                <h3>Pie Crust</h3>
+                <p>prep : 15min | coock : 15min</p>
+            </a>
+            <!-- end single recipes -->
+            <!-- single recipes -->
+            <a href="single-recipe.html"class="recipe">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKMsaacFbOTVKgb_CUGN1VO31PKxzDcdtzjw&usqp=CAU&reload=on" alt="food"class="img recipe-img">
+                <h3>Chikne BIryani</h3>
+                <p>prep : 25min | coock : 25min</p>
+            </a>
+            <!-- end single recipes -->
+             
+
+        </div>
+        <!-- end recipes list -->
+
+    </section>
+</main>
+<!-- end of main -->
+
+
+
+    <!-- footer -->
+    <footer class="page-footer">
+        <p>
+             &copy;<span id="date"></span>
+            <span class="footer-logo">SimplyRecipes</span>
+            Built by <a href="https://github.com/">coding aadict</a>
+        </p>
+    </footer>
+    <!-- <script src="./js/app.js"></script> -->
+    <script src="./js/1aap.js"></script>
+</body>
+</html>
